@@ -1,0 +1,30 @@
+{
+  "name": "devil-cli",
+  "version": "1.0.0",
+  "description": "一个基于webpack4+的vue脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "devil": "bin/devil",
+    "devil-init": "bin/devil-init",
+    "devil-list": "bin/devil-list",
+    "devil-add": "bin/devil-add",
+    "devil-delete": "bin/devil-delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilzzsthl/devil-cli.git"
+  },
+  "author": "ilz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilzzsthl/devil-cli/issues"
+  },
+  "homepage": "https://github.com/ilzzsthl/devil-cli#readme",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.4"
+  }
+}
